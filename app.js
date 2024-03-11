@@ -21,7 +21,17 @@
 // console.log(students);
 
 
-// unshift add from
+// unshift add from starts
+// var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan"];
+// students.unshift("Nabeel")
+// console.log(students);
+
+
+// splice methord deleting and adding in center
 var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan"];
- students.push("Nabeel")
+ students.splice(1,2,"Kamran")
+ console.log(students);
+
+ var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan"];
+ students.splice(1,1,)
  console.log(students);
