@@ -28,10 +28,17 @@
 
 
 // splice methord deleting and adding in center
-var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan"];
- students.splice(1,2,"Kamran")
- console.log(students);
+// var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan"];
+// students.splice(1,2,"Kamran")
+// console.log(students);
 
- var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan"];
- students.splice(1,1,)
- console.log(students);
+// var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan"];
+// students.splice(1,1,)
+// console.log(students);
+
+
+// slice create copy file
+var students = ["Rehan", "Ali", "Imran", "Bilal", "Rizwan", "Kamran"];
+console.log(students);
+ var studentsCopy = students.slice(2,5);
+ console.log(studentsCopy)
